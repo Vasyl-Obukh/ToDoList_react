@@ -1,0 +1,70 @@
+#root ul, #root form {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+#root {
+  display: inline-block;
+  width: 300px;
+  background-color: #e5e5e5;
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+  #root h2 {
+    text-align: center;
+    font-family: "Courier New";
+    color: red; }
+  #root ul {
+    padding: 0; }
+    #root ul li {
+      font: 16px "Courier New";
+      color: #c68fbb;
+      margin-top: 5px;
+      white-space: pre-wrap;
+      word-wrap: break-word; }
+      #root ul li button {
+        float: right;
+        border: none;
+        outline: none;
+        color: red;
+        opacity: 0.3;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        background-color: #e5e5e5; }
+        #root ul li button:hover {
+          outline: none;
+          opacity: 1;
+          font-size: 16px;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; }
+  #root form {
+    margin-bottom: 20px;
+    margin-left: 15px; }
+    #root form input {
+      outline: none;
+      font: 18px "Courier New"; }
+      #root form input:hover {
+        outline: none; }
+      #root form input:first-child {
+        color: #777;
+        padding: 7px;
+        width: 190px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        border: none;
+        -webkit-border-radius: 10px 0 0 10px;
+                border-radius: 10px 0 0 10px; }
+        #root form input:first-child:focus {
+          color: #0f7;
+          -webkit-transition: 1s;
+          -o-transition: 1s;
+          transition: 1s; }
+      #root form input:last-child {
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 7px;
+        font-weight: 800;
+        -webkit-border-radius: 0 10px 10px 0;
+                border-radius: 0 10px 10px 0; }
